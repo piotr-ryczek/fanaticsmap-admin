@@ -1,0 +1,53 @@
+.clear-after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;   
+}
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+}
+
+a {
+  text-decoration: none;
+  color: $textColor;
+}
+
+.clear-button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none
+}
+
+.date-wrapper {
+  .date {
+    display: block;
+  }
+
+  .date-from {
+    display: block;
+    
+    &:before {
+      content: '(';
+    }
+
+    &:after {
+      content: ')';
+    }
+  }
+}
+
+.clear-list {
+  margin-left: 0px;
+  padding-left: 0px;
+}

@@ -1,0 +1,16 @@
+#message {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+
+  &.error {
+    background-color: $errorColor;
+    color: white;
+  }
+
+  &.success {
+    background-color: $correctColor;
+    color: white;
+  }
+}

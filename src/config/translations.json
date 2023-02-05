@@ -1,0 +1,593 @@
+{
+  "pl": {
+    "translation": {
+      "messageCodes": {
+        "NETWORK_ERROR": "Problem z połączeniem.",
+        "UNKNOWN_ERROR": "Nieznany błąd.",
+        "LOGIN_FAILED": "Logowanie nieudane",
+        "LOGIN_SUCCESS": "Zalogowałeś się",
+        "LOGOUT_SUCCESS": "Wylogowałeś się",
+        "USER_WITH_EMAIL_EXISTS": "Użytkownik z podanym adresem email już istnieje w bazie",
+        "NOT_AUTHORIZED": "Nie posiadasz uprawnień do dokonania tej akcji. Jeśli byłeś wcześniej zalogowany zostałeś automatycznie wylogowany, zaloguj się ponownie.",
+        "CLUB_WITH_NANE_EXISTS": "Klub o tej nazwie już istnieje",
+        "USER_ADDED_SUCCESS": "Użytkownik został dodany",
+        "USER_UPDATED_SUCCESS": "Użytkownik został zaktualizowany",
+        "REMOVE_SUCCESS": "Elementy zostały poprawnie usunięte",
+        "INTERNAL": "Błąd wewnętrzny serwera",
+        "FORM_INCORRECT": "Błędy w formularzu",
+        "BACKUP_RESTORED": "Backup został przywrócony",
+        "BACKUP_CREATED": "Backup został utworzony",
+        "SUGGESTION_APPLIED": "Zmiany zaproponowane w sugestii zostały zaakceptowane, a sama sugestia zmieniła status na zaakceptowaną",
+        "CLUB_ADDED_SUCCESS": "Klub został dodany",
+        "CLUB_UPDATED_SUCCESS": "Klub został zaktualizowany",
+        "LEAGUE_MATCHES_DOWNLOADED": "Mecze zostały poprawnie pobrane",
+        "LEAGUE_ADDED_SUCCESS": "Liga została dodana"
+      },
+      "formErrors": {
+        "email": "Niepoprawny adres email",
+        "required": "Pole jest wymagane",
+        "fileSize": "Plik jest zbyt duży",
+        "fileType": "Nieodpowiedni format pliku",
+        "relationsNotUnique": "Relacje muszą być unikalne",
+        "passwordRequired": "Hasło musi zostać uzupełnione"
+      },
+      "global": {
+        "users": "Użytkownicy",
+        "addUser": "Dodaj użytkownika",
+        "clubs": "Kluby",
+        "clubsCompare": "Porównaj",
+        "addClub": "Dodaj klub",
+        "suggestions": "Sugestie",
+        "activities": "Aktywność",
+        "backups": "Backupy",
+        "edit": "Edytuj",
+        "save": "Zapisz",
+        "view": "Zobacz",
+        "remove": "Usuń",
+        "close": "Zamknij",
+        "for": "Dla",
+        "by": "przez",
+        "when": "kiedy",
+        "at": "o",
+        "before": "Przed",
+        "after": "Po",
+        "new": "Nowy",
+        "logout": "Wyloguj się",
+        "chooseToUpload": "Wybierz plik",
+        "confirmRemove": "Jesteś pewny, że chcesz usunąć ({{nrItems}} element(ów))?",
+        "actions": "Akcje",
+        "searchPlaces": "Wyszukaj miejsca...",
+        "clubsByPower": "Kluby według siły",
+        "leagues": "Ligi",
+        "addLeague": "Dodaj ligę",
+        "calculate": "Oblicz",
+        "add": "Dodaj",
+        "matches": "Mecze",
+        "addMatch": "Dodaj mecz",
+        "filter": "Filtruj",
+        "downloadClubs": "Pobierz kluby",
+        "downloadFromAllLeagues": "Pobierz dla wszystkich",
+        "clubsByRelations": "Kluby według relacji",
+        "recalculateIncomingMatches": "Przelicz nadchodzące mecze"
+      },
+      "columns": {
+        "_id": "Identyfikator",
+        "role": "Rola",
+        "verified": "Zweryfikowany",
+        "email": "Email",
+        "name": "Nazwa",
+        "objectType": "Typ obiektu",
+        "originalObject": "ID / Nazwa obiektu",
+        "actionType": "Typ akcji",
+        "user": "Użytkownik",
+        "tier": "Znaczenie / Siła",
+        "logo": "Logo / herb",
+        "createdAt": "Dokonano",
+        "importanceModifier": "Modifikator znaczenia",
+        "nrClubs": "Liczba klubów",
+        "leagueTier": "Poziom rozgrykowy",
+        "isAutomaticDownload": "Automatyczne cykliczne pobieranie",
+        "seasonStartYear": "Rok rozpoczęcia sezonu",
+        "seasonEndYear": "Rok zakończenia sezonu",
+        "seasonMonthUntil": "Miesiąc do którego trwa sezon (domyślnie: lipiec (7))"
+      },
+      "login": {
+        "login": "Zaloguj się",
+        "emailLabel": "Email",
+        "passwordLabel": "Hasło"
+      },
+      "backups": {
+        "createBackup": "Utwórz backup",
+        "fileName": "Nazwa pliku",
+        "restore": "Przywróć",
+        "createdAt": "Utworzony",
+        "restoreConfirm": "Jesteś pewny, że chcesz przywrócić ten backup? Jeśli tak, wybierz kolekcje do przywrócenia.",
+        "users": "Użytkownicy",
+        "clubs": "Kluby",
+        "suggestions": "Sugestie",
+        "roles": "Role",
+        "leagues": "Ligi"
+      },
+      "suggestions": {
+        "removeConfirm": "Jesteś pewny, że chcesz usunąć ({{nrItems}}) sugestie(ę)?",
+        "removeConfirmSingle": "Jesteś pewny, że chcesz odrzucić tę sugestię? Jeśli uważasz za stosowne możesz też wyciszyć użytkownika. Wtedy zostaną też usunięte jego pozostałe sugestie.",
+        "apply": "Zatwierdź",
+        "reject": "Odrzuć",
+        "rejectAndMute": "Odrzuć i wycisz",
+        "noSuggestions": "Obecnie brak sugestii.",
+        "tooltips": {
+          "toRemove": "Do usunięcia / Usunięty",
+          "noChange": "Bez zmiany",
+          "change": "Wartość zmieniona",
+          "toAdd": "Do dodania / Dodany",
+          "toCreate": "Do utworzenia"
+        }
+      },
+      "club": {
+        "name": "Nazwa oryginalna",
+        "transliterationName": "Nazwa transliterowana / używana na arenie międzynarodowej",
+        "searchName": "Nazwy po których dodatkowo będzie można wyszukiwac klub",
+        "transliterationNameShort": "Transliteracja",
+        "searchNameShort": "Pod wyszukiwanie",
+        "tier": "Znaczenie / Siła",
+        "logo": "Logo / herb",
+        "friendships": "Zgody",
+        "friendshipsPlaceholder": "Zacznj pisać i wybierz zgody...",
+        "agreements": "Układy",
+        "agreementsPlaceholder": "Zacznij pisać i wybierz układy...",
+        "positives": "Pozytywne relacje",
+        "positivesPlaceholder": "Zacznij pisać i wybierz kluby, z którymi klub posiada pozytywne relacje...",
+        "satellites": "Satelity",
+        "satellitesPlaceholder": "Zacznij pisać i wybierz satelity...",
+        "satelliteOf": "Satelita",
+        "satelliteOfPlaceholder": "Zacznij pisać i wybierz jakiego klubu klub jest satelitą...",
+        "comments": "Uwagi",
+        "otherFoundByName": "Istniejące kluby o podobnej bądź identycznej nazwie: ",
+        "enemies": "Wrogowie",
+        "enemiesPlaceholder": "Zacznij pisać i wynierz wrogów...",
+        "derbyRivalries": "Rywale derbowi",
+        "derbyRivalriesPlaceholder": "Zacznij pisać i wybierz derbowych rywali...",
+        "league": "Liga",
+        "country": "Państwo"
+      },
+      "user": {
+        "email": "Email",
+        "role": "Rola",
+        "password": "Hasło",
+        "verified": "Zweryfikowany",
+        "isNewPassword": "Ustawić nowe hasło?"
+      },
+      "roles": {
+        "admin": "Administrator",
+        "moderator": "Moderator",
+        "user": "Użytkownik",
+        "userDisabled": "Użytkownik wyciszony"
+      },
+      "objectTypes": {
+        "club": "Klub",
+        "user": "Użytkownik",
+        "suggestion": "Sugestia"
+      },
+      "actionTypes": {
+        "add": "Dodanie",
+        "remove": "Usunięcie",
+        "update": "Aktualizacja",
+        "apply": "Zaaprobowanie"
+      },
+      "activity": {
+        "id": "Identyfikator",
+        "objectType": "Typ obiektu",
+        "actionType": "Typ akcji",
+        "user": "Użytkownik",
+        "onlyForClub": "Na ten moment aktywność wyświetlana jest tylko dla aktualizacji bądź dodania klubu."
+      },
+      "tableTooltips": {
+        "clubLogo": "Zwróć uwagę na narzucone pomocnicze szare tło. Jeśli tło jest białe bądź inne niż szare znaczy to najprawdopodobniej, że obrazek nie posiada przezroczystego tła i mogą występowac problemy z jego estetycznym wyświetlaniem."
+      },
+      "clubCompare": {
+        "firstClub": "Pierwszy klub",
+        "secondClub": "Drugi klub",
+        "compare": "Porównaj"
+      },
+      "clubsByPower": {
+        "cannotSave": "Wystąpiły błędy, nie można zapisać.",
+        "saveFor": "Zapisz zmiany dla {{nrItems}} klubów",
+        "country": "Państwo..."
+      },
+      "league": {
+        "name": "Nazwa",
+        "clubsPlaceholder": "Kluby występujące",
+        "clubsBeforeNotice": "Po utworzeniu ligi pojawi się możliwość automatycznego pobrania klubów. Pamiętaj aby zweryfikować poprawność danych. Pamiętaj też, że zostaną przypisane tylko te kluby, które już istnieją w bazie danych.",
+        "isAutomaticDownload": "Automatycznie, cyklicznie pobierane mecze",
+        "downloadMethod": "Metoda pobierania",
+        "downloadUrl": "Adres url do pobierania",
+        "importanceModifier": "Modyfikator znaczenia meczy",
+        "sport": "Dyscyplina sportowa",
+        "tier": "Poziom rozgrywkowy",
+        "seasonStartYear": "Rok rozpoczęcia sezonu",
+        "seasonEndYear": "Rok zakończenia sezonu",
+        "seasonMonthUntil": "Miesiąc do którego trwa sezon (domyślnie: lipiec (7))"
+      },
+      "addMatch": {
+        "attitude": "Nastawienie",
+        "importance": "Znaczenie",
+        "reserves": "Rezerwy",
+        "homeClub": "Gospodarze",
+        "awayClub": "Goście",
+        "clubNotInDatabase": "Klub nie istnieje w bazie danych, mimo to chcesz go wykorzystać bez uprzedniego dodania?",
+        "league": "Liga"
+      },
+      "match": {
+        "changeLocation": "Zmień",
+        "setLocation": "Ustaw",
+        "recalculate": "Przelicz",
+        "reserves": "Rezerwy"
+      },
+      "matches": {
+        "remove": "Usuń",
+        "homeClub": "Gospodarze",
+        "attitude": "Nastawienie",
+        "awayClub": "Goście",
+        "location": "Lokalizacja",
+        "league": "Liga",
+        "date": "Data",
+        "importance": "Znaczenie",
+        "isVisible": "Widoczny?",
+        "actions": "Akcje"
+      },
+      "matchFilters": {
+        "date": "Po dacie",
+        "dateFrom": "Od",
+        "dateTo": "Do",
+        "isVisible": "Widoczność",
+        "lackOf": "Z brakiem",
+        "leagueTier": "Poziom rozgrywkowy",
+        "leagueTiers": "Poziomy rozgrykowe",
+        "clubs": "Dla klubów",
+        "ignoreAttitude": "Ignoruj nastawienie",
+        "attitudeFrom": "Nastawienie od",
+        "attitudeTo": "Nastawienie do",
+        "foundClubName": "Dla poszukiwanej nazwy klubu ze źródła (szara mała nazwa)"
+      },
+      "leagueDownloadMatches": {
+        "title": "Podsumowanie",
+        "added": "Dodano {{added}} mecz(e)",
+        "updated": "Zaktualizowano {{updated}} mecz(e)"
+      }
+    }
+  },
+  "en": {
+    "translation": {
+      "messageCodes": {
+        "NETWORK_ERROR": "Connection problem.",
+        "UNKNOWN_ERROR": "Unknow error.",
+        "LOGIN_FAILED": "Login failed",
+        "LOGIN_SUCCESS": "You have logged in",
+        "LOGOUT_SUCCESS": "You have logged out",
+        "USER_WITH_EMAIL_EXISTS": "User with provided email already exists in database",
+        "NOT_AUTHORIZED": "You do not have permission to complete this action, if you have been logged in before you have been automatically logged out, sign in again.",
+        "CLUB_WITH_NANE_EXISTS": "Club with provided name already exists in database",
+        "USER_ADDED_SUCCESS": "User has been added",
+        "USER_UPDATED_SUCCESS": "User has been updated",
+        "REMOVE_SUCCESS": "Objects have been removed",
+        "INTERNAL": "Internal server error",
+        "FORM_INCORRECT": "Form errors",
+        "BACKUP_RESTORED": "Backup has been restored",
+        "BACKUP_CREATED": "Backup has been created",
+        "SUGGESTION_APPLIED": "Changes have been applied, suggestion status changed from pending to applied",
+        "CLUB_ADDED_SUCCESS": "Club has been added",
+        "CLUB_UPDATED_SUCCESS": "Club has been updated"
+      },
+      "formErrors": {
+        "email": "Incorrect email address",
+        "required": "Field is required",
+        "fileSize": "File is being to big",
+        "fileType": "Incorrect file format",
+        "relationsNotUnique": "Relations have to unique",
+        "passwordRequired": "Password is required"
+      },
+      "global": {
+        "users": "Users",
+        "addUser": "Add user",
+        "clubs": "Clubs",
+        "addClub": "Add club",
+        "suggestions": "Suggestions",
+        "activities": "Activities",
+        "backups": "Backups",
+        "edit": "Edit",
+        "save": "Save",
+        "view": "See",
+        "remove": "Remove",
+        "close": "Close",
+        "for": "For",
+        "by": "by",
+        "when": "when",
+        "at": "at",
+        "before": "Before",
+        "after": "After",
+        "new": "New",
+        "logout": "Sign out",
+        "chooseToUpload": "Choose a file",
+        "confirmRemove": "Are you sure you want to remove ({{nrItems}} item(s))?",
+        "actions": "Actions",
+        "searchPlaces": "Search places...",
+        "addMatch": "Add match"
+      },
+      "columns": {
+        "_id": "ID",
+        "role": "Role",
+        "verified": "Verified",
+        "email": "Email",
+        "name": "Name",
+        "objectType": "Object type",
+        "originalObject": "Object ID / Name",
+        "actionType": "Action type",
+        "user": "User",
+        "tier": "Importance / strength",
+        "logo": "Logo",
+        "createdAt": "Performed",
+        "leagueTier": "League level",
+        "importanceModifier": "Modifikator znaczenia",
+        "nrClubs": "Clubs numbers",
+        "isAutomaticDownload": "Automatic periodical download",
+        "seasonStartYear": "Season start year",
+        "seasonEndYear": "Season end year",
+        "seasonMonthUntil": "Season month until (default: July (7))"
+      },
+      "login": {
+        "login": "Sign in",
+        "emailLabel": "Email",
+        "passwordLabel": "Password"
+      },
+      "backups": {
+        "createBackup": "Create backup",
+        "fileName": "Filename",
+        "restore": "Restore",
+        "createdAt": "Created at",
+        "restoreConfirm": "Are you sure you want to restore this backups?",
+        "users": "Users",
+        "clubs": "Clubs",
+        "suggestions": "Suggestions",
+        "roles": "Roles"
+      },
+      "suggestions": {
+        "removeConfirm": "Are you sure you want to remove ({{nrItems}}) suggestion(s)?",
+        "removeConfirmSingle": "Are you sure you want to remove this suggestion? If you think it is appropriate you can mute it's author. It will also remove all other user suggestions",
+        "apply": "Apply",
+        "reject": "Reject",
+        "rejectAndMute": "Reject and mute",
+        "noSuggestions": "Currently there are no suggestions.",
+        "tooltips": {
+          "toRemove": "To remove",
+          "noChange": "No change",
+          "change": "Value changed",
+          "toAdd": "To add",
+          "toCreate": "To create"
+        }
+      },
+      "club": {
+        "name": "Name",
+        "transliterationName": "Transilteration name / used internationally",
+        "searchName": "Other names by which club can be searched",
+        "transliterationNameShort": "Transliteration",
+        "searchNameShort": "For search",
+        "tier": "Tier",
+        "logo": "Logo",
+        "friendships": "Friendships",
+        "friendshipsPlaceholder": "Start typing and select clubs...",
+        "agreements": "Agreements",
+        "agreementsPlaceholder": "Start typing and select clubs...",
+        "positives": "Positive relations",
+        "positivesPlaceholder": "Start typing and select clubs...",
+        "satellites": "Satellites",
+        "satellitesPlaceholder": "Start typing and select clubs...",
+        "satelliteOf": "Satellite",
+        "satelliteOfPlaceholder": "Start typing and select club...",
+        "comments": "Comments",
+        "otherFoundByName": "Existing clubs with the similar or the same name: ",
+        "enemies": "Enemies",
+        "enemiesPlaceholder": "Start typing and select club...",
+        "derbyRivalries": "Derby rivalries",
+        "derbyRivalriesPlaceholder": "Start typing and select club...",
+        "country": "Country"
+      },
+      "user": {
+        "email": "Email",
+        "role": "Role",
+        "password": "Password",
+        "verified": "Verified",
+        "isNewPassword": "Set new password?"
+      },
+      "roles": {
+        "admin": "Administrator",
+        "moderator": "Moderator",
+        "user": "User",
+        "userDisabled": "User muted"
+      },
+      "objectTypes": {
+        "club": "Club",
+        "user": "User",
+        "suggestion": "Suggestion"
+      },
+      "actionTypes": {
+        "add": "Add",
+        "remove": "Remove",
+        "update": "Update",
+        "apply": "Apply"
+      },
+      "activity": {
+        "id": "ID",
+        "objectType": "Object type",
+        "actionType": "Action type",
+        "user": "User",
+        "onlyForClub": "Currently you can view activity only for update and addition of the club."
+      },
+      "tableTooltips": {
+        "clubLogo": "Note the imposed gray background. If the background is white or other than gray, it probably means that the image does not have a transparent background and there may be problems with proper display."
+      },
+      "clubCompare": {
+        "firstClub": "First club",
+        "secondClub": "Second club",
+        "compare": "Compare"
+      }
+    }
+  },
+  "emptyTemplate": {
+    "translation": {
+      "messageCodes": {
+        "NETWORK_ERROR": "",
+        "UNKNOWN_ERROR": "",
+        "LOGIN_FAILED": "",
+        "LOGIN_SUCCESS": "",
+        "LOGOUT_SUCCESS": "",
+        "USER_WITH_EMAIL_EXISTS": "",
+        "NOT_AUTHORIZED": "",
+        "CLUB_WITH_NANE_EXISTS": "",
+        "USER_ADDED_SUCCESS": "",
+        "USER_UPDATED_SUCCESS": "",
+        "REMOVE_SUCCESS": "",
+        "INTERNAL": "",
+        "FORM_INCORRECT": "",
+        "BACKUP_RESTORED": "",
+        "BACKUP_CREATED": "",
+        "SUGGESTION_APPLIED": "",
+        "CLUB_ADDED_SUCCESS": "",
+        "CLUB_UPDATED_SUCCESS": ""
+      },
+      "formErrors": {
+        "email": "",
+        "required": "",
+        "fileSize": "",
+        "fileType": "",
+        "relationsNotUnique": "",
+        "passwordRequired": ""
+      },
+      "global": {
+        "users": "",
+        "addUser": "",
+        "clubs": "",
+        "addClub": "",
+        "suggestions": "",
+        "activities": "",
+        "backups": "",
+        "edit": "",
+        "save": "",
+        "view": "",
+        "remove": "",
+        "close": "",
+        "for": "",
+        "by": "",
+        "when": "",
+        "at": "",
+        "before": "",
+        "after": "",
+        "new": "",
+        "logout": "",
+        "chooseToUpload": "",
+        "confirmRemove": "",
+        "actions": "",
+        "searchPlaces": ""
+      },
+      "columns": {
+        "_id": "",
+        "role": "",
+        "verified": "",
+        "email": "",
+        "name": "",
+        "objectType": "",
+        "originalObject": "",
+        "actionType": "",
+        "user": "",
+        "tier": "",
+        "logo": "",
+        "createdAt": ""
+      },
+      "login": {
+        "login": "",
+        "emailLabel": "",
+        "passwordLabel": ""
+      },
+      "backups": {
+        "createBackup": "",
+        "fileName": "",
+        "restore": "",
+        "createdAt": "",
+        "restoreConfirm": "",
+        "users": "",
+        "clubs": "",
+        "suggestions": "",
+        "roles": ""
+      },
+      "suggestions": {
+        "removeConfirm": "",
+        "removeConfirmSingle": "",
+        "apply": "",
+        "reject": "",
+        "rejectAndMute": "",
+        "noSuggestions": "",
+        "tooltips": {
+          "toRemove": "",
+          "noChange": "",
+          "change": "",
+          "toAdd": "",
+          "toCreate": ""
+        }
+      },
+      "club": {
+        "name": "",
+        "transliterationName": "",
+        "searchName": "",
+        "transliterationNameShort": "",
+        "searchNameShort": "",
+        "tier": "",
+        "logo": "",
+        "friendships": "",
+        "friendshipsPlaceholder": "",
+        "agreements": "",
+        "agreementsPlaceholder": "",
+        "positives": "",
+        "positivesPlaceholder": "",
+        "satellites": "",
+        "satellitesPlaceholder": "",
+        "satelliteOf": "",
+        "satelliteOfPlaceholder": "",
+        "comments": "",
+        "otherFoundByName": ""
+      },
+      "user": {
+        "email": "",
+        "role": "",
+        "password": "",
+        "verified": "",
+        "isNewPassword": ""
+      },
+      "roles": {
+        "admin": "",
+        "moderator": "",
+        "user": "",
+        "userDisabled": ""
+      },
+      "objectTypes": {
+        "club": "",
+        "user": "",
+        "suggestion": ""
+      },
+      "actionTypes": {
+        "add": "",
+        "remove": "",
+        "update": "",
+        "apply": ""
+      },
+      "activity": {
+        "id": "",
+        "objectType": "",
+        "actionType": "",
+        "user": "",
+        "onlyForClub": ""
+      },
+      "tableTooltips": {
+        "clubLogo": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.to-remove {
+  opacity: 0.4;
+}
+
+.to-add {
+  color: blue;
+}
+
+.to-create {
+  color: green;
+}
+
+.to-change {
+  color: blue;
+}
+
+div, img {
+  &.to-add,
+  &.to-change {
+    border: 2px solid blue;
+  }
+}
+
+.relation-club {
+  font-size: 1em;
+  border-radius: 3px;
+  display: inline-flex;
+  padding: 6px 16px;
+  margin: 2px 6px 2px 0px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &.create {
+    background: $correctColor;
+    color: white;
+  }
+
+  &.add {
+    background: $standardColor;
+    color: white;
+  }
+
+  &.remove {
+    background: $errorColor;
+    color: white;
+    opacity: 0.3;
+  }
+
+  &.no-change {
+    background: #e0e0e0;
+    color: $textColor;
+  }
+}
+
+.suggestion-title {
+  .suggestion-title-for,
+  .suggestion-title-by,
+  .suggestion-title-date,
+  .suggestion-title-at {
+    display: inline-block;
+  }
+
+  .suggestion-title-for {
+    margin-right: 0.25rem;
+  }
+
+  .suggestion-title-by {
+    margin: 0px 0.25rem 0px 0.5rem;
+  }
+
+  .suggestion-title-at {
+    margin-right: 0.25rem;
+  }
+
+  .suggestion-title-date {
+    margin-left: 0.5rem;
+  }
+
+  .suggestion-title-date-from {
+    margin-left: 0.25rem;
+  }
+}

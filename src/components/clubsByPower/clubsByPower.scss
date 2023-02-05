@@ -1,0 +1,19 @@
+.clubs-by-power {
+  tbody {
+    tr {
+      td {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 0px;
+
+        &.club-name {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.club-transliteration-name {
+  padding-left: 0.25rem;
+  opacity: 0.7;
+}

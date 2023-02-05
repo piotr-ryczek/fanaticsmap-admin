@@ -1,0 +1,74 @@
+.location-wrapper {
+  position: relative;
+  z-index: 5;
+
+  .location-search-wrapper {
+    position: absolute;
+    width: 80%;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.location-search-input {
+  height: 3rem;
+  padding: 0px 1rem;
+  border: 1px solid $lightBorderColor;
+  border-radius: $lightBorderColor;
+  width: 100%;
+  display: block;
+  background: white;
+
+  box-sizing: border-box;
+
+  outline: none;
+
+  &.opened {
+    border-radius: $borderRadius $borderRadius 0px 0px;
+  }
+
+  &.error {
+    border-color: $errorColor;
+  }
+}
+
+.autocomplete-dropdown-container {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-radius: 0px 0px $borderRadius $borderRadius;
+  border-color: $lightBorderColor;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  transform: translateY(100%);
+  width: 100%;
+
+  box-sizing: border-box;
+
+  li {
+    background: white;
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
+    padding: 0px 1rem;
+    border-bottom: 1px solid $lightBorderColor;
+
+    box-sizing: border-box;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active {
+      background: $activeListBackground;
+    }
+
+    &:last-child {
+      border-bottom: 0px;
+      border-radius: 0px 0px $borderRadius $borderRadius;
+    }
+  }
+}

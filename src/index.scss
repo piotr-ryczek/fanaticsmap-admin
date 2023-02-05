@@ -1,0 +1,25 @@
+$backgroundColor: #FFFCFF;
+$textColor: #070707;
+$textSecondaryColor: #969595;
+$standardColor: #3454D1;
+$correctColor: #1B998B;
+$errorColor: #D1345B;
+
+$lightBorderColor: hsl(0,0%,80%);
+$activeListBackground: #e8e8e8;
+$borderRadius: 4px;
+
+$standardBoxPadding: 2rem;
+
+@import "common/reset";
+@import "common/common";
+@import "common/imageUploader/imageUploader";
+@import "common/tableList/tableList";
+@import "components/login/login";
+@import "components/suggestions/suggestions";
+@import "components/message/message";
+@import "components/sidePanel/sidePanel";
+@import "components/club/club";
+@import "components/loadingOverlay/loadingOverlay";
+@import "components/clubsByPower/clubsByPower";
+@import "components/matches/matches";
